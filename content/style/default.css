@@ -1,0 +1,49 @@
+
+.btc-banner {
+  width:100%;
+  background: url("../img/banner-bg.jpg") no-repeat center / cover;
+  background-attachment: fixed;
+}
+
+.btc-banner h1 {
+  text-align: center;
+  color:#555;
+  margin-top:190px;
+  padding-bottom:20px;
+  color:#FFF;
+}
+
+.btc-main-content {
+  padding:25px 10vw;
+}
+
+.card-wide.mdl-card {
+  width: 512px;
+}
+.card-wide > .mdl-card__title {
+  color: #fff;
+  height: 300px;
+}
+.card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.card-wide.mingkit > .mdl-card__title {
+  background: url('../img/mingkit.png') top / cover no-repeat;
+}
+
+@media(max-width: 650px) {
+  .btc-banner h1 {
+    margin-top:50px;
+    font-size: 3em;
+    padding:5px;
+  }
+
+  .btc-main-content {
+    padding:15px 10vw;
+  }
+
+  .mdl-layout__drawer-button {
+    color:#FFF;
+  }
+}

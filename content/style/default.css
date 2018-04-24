@@ -42,6 +42,10 @@
   background: url('../img/thomas.jpg') center / cover no-repeat;
 }
 
+.card-wide.jon  .mdl-card__title {
+  background: url('../img/jon2.jpg') center / cover no-repeat;
+}
+
 .btc-main-content {
   overflow:visible;
 }
@@ -63,6 +67,7 @@
 
   .card-wide.mdl-card {
     width:80vw;
+    margin:10px auto;
   }
 
   .card-wide > .mdl-card__title {

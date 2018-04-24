@@ -46,6 +46,13 @@
   background: url('../img/jon2.jpg') center / cover no-repeat;
 }
 
+.card-wide.rita  .mdl-card__title {
+  background: url('../img/rita.jpg') top / cover no-repeat;
+}
+
+.card-wide .mdl-card__supporting-text {
+  min-height:50px;
+}
 .btc-main-content {
   overflow:visible;
 }

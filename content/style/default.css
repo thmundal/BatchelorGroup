@@ -19,6 +19,8 @@
 
 .card-wide.mdl-card {
   width: 512px;
+  float:left;
+  margin:10px;
 }
 .card-wide > .mdl-card__title {
   color: #fff;
@@ -30,6 +32,14 @@
 
 .card-wide.mingkit > .mdl-card__title {
   background: url('../img/mingkit.png') top / cover no-repeat;
+}
+
+.card-wide.erica  .mdl-card__title {
+  background: url('../img/erica.jpg') center / cover no-repeat;
+}
+
+.card-wide.thomas  .mdl-card__title {
+  background: url('../img/thomas.jpg') center / cover no-repeat;
 }
 
 .btc-main-content {

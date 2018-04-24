@@ -18,9 +18,11 @@
 }
 
 .card-wide.mdl-card {
-  width: 512px;
+  /* width: 512px; */
+  width:30%;
   float:left;
   margin:10px;
+  box-sizing: border-box;
 }
 .card-wide > .mdl-card__title {
   color: #fff;
@@ -48,6 +50,10 @@
 
 .card-wide.rita  .mdl-card__title {
   background: url('../img/rita.jpg') top / cover no-repeat;
+}
+
+.card-wide.havar  .mdl-card__title {
+  background: url('../img/havar.jpg') center / cover no-repeat;
 }
 
 .card-wide .mdl-card__supporting-text {

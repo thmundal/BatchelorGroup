@@ -3,6 +3,7 @@
   width:100%;
   background: url("../img/banner-bg.jpg") no-repeat center / cover;
   background-attachment: fixed;
+  overflow: auto;
 }
 
 .btc-banner h1 {
@@ -60,11 +61,24 @@
   min-height:75px;
 }
 .btc-main-content {
-  overflow:visible;
+  /* overflow:visible; */
 }
 
 .mdl-layout__header {
   position: fixed;
+}
+
+.intro {
+  font-size:2em;
+  line-height: 1.3em;
+  padding:10px 0;
+  margin-top:40px;
+}
+
+#members {
+  margin-top:-40px;
+  padding-top:80px;
+  overflow:auto;
 }
 
 @media(max-width: 650px) {

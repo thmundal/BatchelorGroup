@@ -14,6 +14,10 @@
   color:#FFF;
 }
 
+.btc-header-spacer {
+  margin-top:70px;
+}
+
 .btc-main-content {
   padding:25px 10vw;
 }
@@ -57,6 +61,18 @@
   background: url('../img/havar.jpg') center / cover no-repeat;
 }
 
+.btc-profile-pic {
+  height:192px !important;
+  width:25%;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.btc-profile-pic.thomas {
+  background: url("../img/thomas.jpg") center / cover no-repeat;
+}
+
 .card-wide .mdl-card__supporting-text {
   min-height:75px;
 }
@@ -75,10 +91,55 @@
   margin-top:40px;
 }
 
+.btc-vertical-spacer {
+  margin-top:30px;
+}
+
 #members {
   margin-top:-40px;
   padding-top:80px;
   overflow:auto;
+}
+
+.btc-table {
+  display:table;
+  border:1px solid rgba(0,0,0,.12);
+  border-collapse: collapse;
+  white-space: normal;
+  font-size: 13px;
+  background-color:#FFF;
+  width:100%;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.btc-table-responsive {
+}
+
+.btc-table-row {
+  display:table-row;
+  border-top: 1px solid rgba(0,0,0,.12);
+  border-bottom: 1px solid rgba(0,0,0,.12);
+  width:100%;
+}
+
+.btc-table-row:hover {
+  background: #EEE;
+}
+
+.btc-table-cell {
+  display: table-cell;
+  position: relative;
+  height: 48px;
+  padding: 12px 18px;
+  box-sizing: border-box;
+}
+
+.nopadding {
+  padding:0 !important;
+}
+
+.noshadow {
+  box-shadow: none !important;
 }
 
 @media(max-width: 650px) {
@@ -104,4 +165,24 @@
   .card-wide > .mdl-card__title {
     height:200px;
   }
+
+  .btc-table-responsive {
+    width:100%;
+  }
+
+  .btc-profile-pic {
+    width:100%;
+  }
+  .btc-table-cell {
+    padding:8px 12px;
+  }
+
+  .dissolve {
+    display: block;
+    height: auto;
+    padding:0;
+    margin:0;
+    border:0;
+  }
+
 }

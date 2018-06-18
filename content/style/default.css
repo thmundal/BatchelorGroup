@@ -84,6 +84,21 @@
 .btc-profile-pic.thomas {
   background: url("../img/thomas.jpg") center / cover no-repeat;
 }
+.btc-profile-pic.mingkit {
+  background: url("../img/mingkit.png") top / cover no-repeat;
+}
+.btc-profile-pic.erica {
+  background: url("../img/erica.jpg") center / cover no-repeat;
+}
+.btc-profile-pic.jon {
+  background: url("../img/jon.jpg") center / cover no-repeat;
+}
+.btc-profile-pic.rita {
+  background: url("../img/rita.jpg") center / cover no-repeat;
+}
+.btc-profile-pic.havar {
+  background: url("../img/havar.jpg") center / cover no-repeat;
+}
 
 .card-wide .mdl-card__supporting-text {
   min-height:75px;

@@ -94,7 +94,7 @@
   background: url("../img/jon.jpg") top / cover no-repeat;
 }
 .btc-profile-pic.rita {
-  background: url("../img/rita.jpg") center / cover no-repeat;
+  background: url("../img/rita.jpg") 0 -50px / cover no-repeat;
 }
 .btc-profile-pic.havar {
   background: url("../img/havar.jpg") center / cover no-repeat;
